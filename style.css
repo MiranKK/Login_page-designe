@@ -142,3 +142,32 @@ height: 120vh;
     border-radius: 5px;
    
 }
+
+.right_content{
+    
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.child1{
+
+    width: 170px;
+    height: 100px;
+    margin-top: 50px;
+   
+}
+.child1 input{
+    border: none;
+    width: 200px;
+    padding: 12px;
+    font-size: .6rem;
+    color: #505960;
+    border-radius:3px;
+    background-color: #dbe1f5;
+    box-shadow: .5px .5px .5px rgba(128, 128, 128, 0.503);
+}
