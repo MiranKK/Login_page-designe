@@ -12,23 +12,24 @@ body {
 nav {
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 
 
 }
 
 nav ul {
     list-style-type: none;
-    width: 300px;
+    width: 500px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 ul li a {
     text-decoration: none;
     color: #505960;
-    font-size: .7rem;
+    font-size: 1.3rem;
     transition: all .3s;
 
 }
@@ -40,15 +41,15 @@ ul li a:hover {
 ul li a:focus {
     color: #4A77F9;
     text-shadow: .5px .5px .5px #4A77F9;
-    font-size: .73rem;
+    font-size: 1.4rem;
 }
 
 .box1 {
-    width: 200px;
+    width: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-size: .7rem;
+    font-size: 1.3rem;
 }
 
 .box1 a {
@@ -64,7 +65,7 @@ ul li a:focus {
 .box1 a:focus {
     color: #4A77F9;
     text-shadow: .5px .5px .5px #4A77F9;
-    font-size: .73rem;
+    font-size: 1.4rem;
 
 }
 
@@ -73,8 +74,8 @@ ul li a:focus {
     border: none;
     border-radius: 50px;
     color: black;
-    padding: 7px 25px;
-    font-size: .58rem;
+    padding: 14px 45px;
+    font-size: 1rem;
     font-weight: 550;
     box-shadow: .5px .5px .5px gray;
     cursor: pointer;
@@ -82,7 +83,9 @@ ul li a:focus {
 }
 
 .box1 button:hover {
-    box-shadow: 1.5px 1.5px 1.5px .5px gray;
+    box-shadow: 1.5px 1.5px 1.5px .5px #4A77F9;
+    background-color: #4A77F9;
+    color: white;
 }
 
 section{
@@ -98,19 +101,29 @@ height: 120vh;
 }
 
 .left_content p{
-    font-size: .7rem;
+    font-size: 1.2rem;
     color: #505960;
 }
-.left_content h3{
+.left_content h1{
     color: #4A77F9;
     letter-spacing: 1.2px;
     font-style: italic;
+    font-size: 1.8rem;
 }
 
+
+.left_content{
+    margin-top: 150px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
 .group_store{
 
-    width: 250px;
-  
+    width: 450px;
+  position: relative;
+  bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 
@@ -121,8 +134,8 @@ height: 120vh;
 }
 
 .AppStore{
-    width: 115px;
-    height: 35px;
+    width: 200px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -133,8 +146,8 @@ height: 120vh;
 
 
 .PlayStore{
-    width: 115px;
-    height: 35px;
+    width: 200px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -145,8 +158,8 @@ height: 120vh;
 
 .right_content{
     
-    height: 90vh;
-    width: 40vw;
+    height: 100vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,9 +176,9 @@ height: 120vh;
 }
 .child1 input{
     border: none;
-    width: 200px;
-    padding: 12px;
-    font-size: .6rem;
+    width: 350px;
+    padding: 18px;
+    font-size: 1.2rem;
     color: #505960;
     border-radius:3px;
     background-color: #dbe1f5;
@@ -176,13 +189,16 @@ height: 120vh;
 
 .child2{
 
-    width: 260px;
-    font-size: .6rem;
-
+    width: 580px;
+    height: 40px;
+    font-size: 1.2rem;
+position: relative;
+top: 50px;
     display: flex;
     justify-content:flex-end;
     
     align-items: center;
+
     
 }
 .child2 a{
@@ -193,8 +209,73 @@ height: 120vh;
 }
 .child2 a:hover{
     color: #4A77F9;
-    font-size: .61rem;
+    font-size: 1.3rem;
     letter-spacing: .8px;
     font-weight:600;
     text-shadow: .3px .3px .3px #4A77F9;
 }
+
+
+#btn{
+
+    padding: 20px;
+    width:360px;
+    background-color: #4A77F9;
+    color: white;
+    font-size:1rem;
+    position: relative;
+    left:105px;
+    top: 70px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow:3px 3px 3px #4A77F9;
+    transition: all .3s;
+}
+
+#btn:hover{
+width: 365px;
+padding: 22px;
+background-color: #505960;
+box-shadow:3px 3px 3px #505960;
+}
+
+.con{
+
+position: relative;
+top: 80px;
+left:100px;
+width: 330px;
+display: flex;
+justify-content: center;
+color: #505960;
+}
+
+.group_con{
+    
+    width: 480px;
+    height:200px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2{
+    background-color: #DCE2F0;
+    width: 140px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.box2:hover{
+    background-color: #E8ECF8;
+    box-shadow:8px 8px 8px rgb(185, 190, 201);
+    transform: scale(1.07);
+}
+
